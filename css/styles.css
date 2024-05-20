@@ -1,0 +1,44 @@
+:root {
+  --color-primary-dark: black;
+  --color-primary-light: white;
+}
+
+/* base */
+body {
+  color: var(--color-primary-dark);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* banner */
+.hero-title {
+  color: var(--color-primary-light);
+}
+
+.hero-text {
+  color: var(--color-primary-light);
+}
+
+/* link */
+.link {
+  color: var(--color-primary-dark);
+}
+
+.link:hover {
+  color: #d9d9d9;
+}
+
+/* titles */
+.section-title {
+  color: var(--color-primary-dark);
+}
+
+.section-sub-title {
+  color: var(--color-primary-dark);
+}
+
+.about-title {
+  color: #f9f9f9;
+}
