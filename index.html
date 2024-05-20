@@ -9,147 +9,163 @@
   <body>
     <header>
       <!-- main photo -->
-      <p class="hero-text">Vlada Gl</p>
-      <h1 class="hero-title">Catch your breath and start traveling!</h1>
-      <p class="hero-text">
-        This blog is my way of sharing my experiences, tips, and travel insights
-        with you :)
-      </p>
-      <nav>
-        <a href="#">
-          <img src="./images/logo.svg" alt="logo" />
-        </a>
-        <ul>
-          <li><a class="link" href="#trips-section">trips</a></li>
-          <li><a class="link" href="#blog-section">blog</a></li>
-          <li><a class="link" href="#about-section">about me</a></li>
-          <li><a class="link" href="#contacts-section">contacts</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <section class="hero-section">
+          <p class="hero-text">Vlada Gl</p>
+          <h1 class="hero-title">Catch your breath and start traveling!</h1>
+          <p class="hero-text">
+            This blog is my way of sharing my experiences, tips, and travel
+            insights with you :)
+          </p>
+        </section>
+        <section class="navigation">
+          <nav>
+            <a href="#">
+              <img src="./images/logo.svg" alt="logo" />
+            </a>
+            <ul>
+              <li><a class="link" href="#trips-section">trips</a></li>
+              <li><a class="link" href="#blog-section">blog</a></li>
+              <li><a class="link" href="#about-section">about me</a></li>
+              <li><a class="link" href="#contacts-section">contacts</a></li>
+            </ul>
+          </nav>
+        </section>
+      </div>
     </header>
     <main>
-      <section id="trips-section">
-        <h2 class="section-title">places I've been to</h2>
-        <p>
-          To start with, I've been fortunate enough to explore many amazing
-          places in Europe. From unrealistic views of the Carpathians to the
-          charming villages of the Swiss Alps, I've soaked up the culture,
-          tasted the food, and made memories that will last a lifetime.
-        </p>
-        <ul>
-          <li>
-            <article>
-              <button type="button">germany</button>
-            </article>
-          </li>
-          <li>
-            <article>
-              <button type="button">hungary</button>
-            </article>
-          </li>
-          <li>
-            <article>
-              <button type="button">austria</button>
-            </article>
-          </li>
-        </ul>
-        <a class="link" href="#">see more</a>
-      </section>
-      <section id="blog-section">
-        <p class="section-sub-title">welcome to my blog</p>
-        <h2 class="section-title">recent posts:</h2>
-        <ul>
-          <li>
-            <article>
-              <p>top category</p>
-              <h3>Lorem ipsum dolor sit amet consectetur</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Ac lacus dis facilisis
-                duis urna. Fermentum lectus leo facilisis nisl. Arcu sem tempor
-                enim orci urna imperdiet.
-              </p>
-            </article>
-          </li>
-          <li>
-            <article>
-              <p>top category</p>
-              <h3>Lorem ipsum dolor sit amet consectetur</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Ac lacus dis facilisis
-                duis urna. Fermentum lectus leo facilisis nisl. Arcu sem tempor
-                enim orci urna imperdiet.
-              </p>
-            </article>
-          </li>
-          <li>
-            <article>
-              <p>top category</p>
-              <h3>Lorem ipsum dolor sit amet consectetur</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Ac lacus dis facilisis
-                duis urna. Fermentum lectus leo facilisis nisl. Arcu sem tempor
-                enim orci urna imperdiet.
-              </p>
-            </article>
-          </li>
-        </ul>
-      </section>
-      <section id="about-section">
-        <h2 class="about-title">about me</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur. Integer cras justo nisl
-          faucibus lorem ultricies id
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur. Id viverra felis et nibh
-          consequat. At nisi vel dolor vitae morbi. Ipsum morbi volutpat
-          ultrices odio fermentum sed nec nulla fermentum. Viverra leo
-          consectetur fermentum tincidunt mauris.
-        </p>
-        <p>Sit amet pharetra proin mauris accumsan pharetra nec mattis.</p>
-      </section>
-      <section id="contacts-section">
-        <p class="section-sub-title">get in touch</p>
-        <h2 class="section-title">contacts</h2>
-        <address>
+      <section class="trips-section section" id="trips-section">
+        <div class="container">
+          <h2 class="trips-title section-title">places I've been to</h2>
+          <p class="trips-text">
+            To start with, I've been fortunate enough to explore many amazing
+            places in Europe. From unrealistic views of the Carpathians to the
+            charming villages of the Swiss Alps, I've soaked up the culture,
+            tasted the food, and made memories that will last a lifetime.
+          </p>
           <ul>
             <li>
-              <a class="link" href="mailto:vsh_o@ukr.net">vsh_o@ukr.net</a>
+              <article>
+                <button type="button">germany</button>
+              </article>
             </li>
             <li>
-              <a class="link" href="tel:+380964073686">+38(096)407-36-86</a>
+              <article>
+                <button type="button">hungary</button>
+              </article>
             </li>
             <li>
-              <a
-                class="link"
-                href="https://maps.app.goo.gl/YnwkWVai92TNfzb78"
-                target="_blank"
-              >
-                Irpin, Ukraine
-              </a>
-            </li>
-            <li>
-              <a href="#"><!--ig icon--></a>
-            </li>
-            <li>
-              <a href="#"><!--fb icon--></a>
-            </li>
-            <li>
-              <a href="#"><!--tg icon--></a>
+              <article>
+                <button type="button">austria</button>
+              </article>
             </li>
           </ul>
-          <button type="button">send</button>
-        </address>
+          <a class="link" href="#">see more</a>
+        </div>
+      </section>
+      <section class="section" id="blog-section">
+        <div class="container">
+          <p class="blog-text section-sub-title">welcome to my blog</p>
+          <h2 class="blog-title section-title">recent posts:</h2>
+          <ul>
+            <li>
+              <article>
+                <p>top category</p>
+                <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Ac lacus dis facilisis
+                  duis urna. Fermentum lectus leo facilisis nisl. Arcu sem
+                  tempor enim orci urna imperdiet.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <p>top category</p>
+                <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Ac lacus dis facilisis
+                  duis urna. Fermentum lectus leo facilisis nisl. Arcu sem
+                  tempor enim orci urna imperdiet.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <p>top category</p>
+                <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Ac lacus dis facilisis
+                  duis urna. Fermentum lectus leo facilisis nisl. Arcu sem
+                  tempor enim orci urna imperdiet.
+                </p>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="about-section">
+        <div class="container">
+          <h2 class="about-title">about me</h2>
+          <p class="about-text">
+            Lorem ipsum dolor sit amet consectetur. Integer cras justo nisl
+            faucibus lorem ultricies id
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Id viverra felis et nibh
+            consequat. At nisi vel dolor vitae morbi. Ipsum morbi volutpat
+            ultrices odio fermentum sed nec nulla fermentum. Viverra leo
+            consectetur fermentum tincidunt mauris.
+          </p>
+          <p>Sit amet pharetra proin mauris accumsan pharetra nec mattis.</p>
+        </div>
+      </section>
+      <section class="section" id="contacts-section">
+        <div class="container">
+          <p class="section-sub-title">get in touch</p>
+          <h2 class="contats-title section-title">contacts</h2>
+          <address>
+            <ul>
+              <li>
+                <a class="link" href="mailto:vsh_o@ukr.net">vsh_o@ukr.net</a>
+              </li>
+              <li>
+                <a class="link" href="tel:+380964073686">+38(096)407-36-86</a>
+              </li>
+              <li>
+                <a
+                  class="link"
+                  href="https://maps.app.goo.gl/YnwkWVai92TNfzb78"
+                  target="_blank"
+                >
+                  Irpin, Ukraine
+                </a>
+              </li>
+              <li>
+                <a href="#"><!--ig icon--></a>
+              </li>
+              <li>
+                <a href="#"><!--fb icon--></a>
+              </li>
+              <li>
+                <a href="#"><!--tg icon--></a>
+              </li>
+            </ul>
+            <button type="button">send</button>
+          </address>
+        </div>
       </section>
     </main>
     <footer>
-      <a href="#">
-        <img src="./images/logo.svg" alt="logo" />
-      </a>
-      <p>
-        &copy; 2024 I made this site as a portfolio and resume to showcase my
-        work
-      </p>
+      <div class="container">
+        <a href="#">
+          <img src="./images/logo.svg" alt="logo" />
+        </a>
+        <p>
+          &copy; 2024 I made this site as a portfolio and resume to showcase my
+          work
+        </p>
+      </div>
     </footer>
   </body>
 </html>

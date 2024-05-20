@@ -4,21 +4,53 @@
 }
 
 /* base */
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: var(--color-primary-dark);
+  margin: 0;
+  padding: 0 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
 }
 
 ul {
   list-style-type: none;
 }
 
+.section {
+  padding: 60px 0;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
 /* banner */
+.hero-section {
+  padding-top: 476px;
+  padding-bottom: 234px;
+}
+
 .hero-title {
   color: var(--color-primary-light);
+  margin-bottom: 40px;
 }
 
 .hero-text {
   color: var(--color-primary-light);
+  margin-bottom: 40px;
 }
 
 /* link */
@@ -37,8 +69,41 @@ ul {
 
 .section-sub-title {
   color: var(--color-primary-dark);
+  margin-bottom: 24px;
 }
 
 .about-title {
   color: #f9f9f9;
+}
+
+/* trips section */
+.trips-section {
+  padding-top: 120px;
+}
+
+.trips-title {
+  margin-bottom: 56px;
+}
+
+.trips-text {
+  margin-bottom: 120px;
+}
+
+/* blog section */
+.blog-text {
+  margin-bottom: 24px;
+}
+
+.blog-title {
+  margin-bottom: 96px;
+}
+
+/* about section */
+.about-text {
+  margin-bottom: 56px;
+}
+
+/* contacts section */
+.contacts-title {
+  margin-bottom: 96px;
 }
