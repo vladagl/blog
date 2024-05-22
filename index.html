@@ -4,6 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog | Vlada Gl</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -12,7 +32,9 @@
       <div class="container">
         <section class="hero-section">
           <p class="hero-text">Vlada Gl</p>
-          <h1 class="hero-title">Catch your breath and start traveling!</h1>
+          <h1 class="hero-title">
+            Catch your breath <span class="and">and</span> start traveling!
+          </h1>
           <p class="hero-text">
             This blog is my way of sharing my experiences, tips, and travel
             insights with you :)
@@ -46,21 +68,21 @@
           <ul>
             <li>
               <article>
-                <button type="button">germany</button>
+                <button class="button" type="button">germany</button>
               </article>
             </li>
             <li>
               <article>
-                <button type="button">hungary</button>
+                <button class="button" type="button">hungary</button>
               </article>
             </li>
             <li>
               <article>
-                <button type="button">austria</button>
+                <button class="button" type="button">austria</button>
               </article>
             </li>
           </ul>
-          <a class="link" href="#">see more</a>
+          <a class="trips-more link" href="#">see more</a>
         </div>
       </section>
       <section class="section" id="blog-section">
@@ -70,9 +92,11 @@
           <ul>
             <li>
               <article>
-                <p>top category</p>
-                <h3>Lorem ipsum dolor sit amet consectetur</h3>
-                <p>
+                <p class="blog-post-sub-title">top category</p>
+                <h3 class="blog-post-title">
+                  Lorem ipsum dolor sit amet consectetur
+                </h3>
+                <p class="blog-post-text">
                   Lorem ipsum dolor sit amet consectetur. Ac lacus dis facilisis
                   duis urna. Fermentum lectus leo facilisis nisl. Arcu sem
                   tempor enim orci urna imperdiet.
@@ -81,9 +105,11 @@
             </li>
             <li>
               <article>
-                <p>top category</p>
-                <h3>Lorem ipsum dolor sit amet consectetur</h3>
-                <p>
+                <p class="blog-post-sub-title">top category</p>
+                <h3 class="blog-post-title">
+                  Lorem ipsum dolor sit amet consectetur
+                </h3>
+                <p class="blog-post-text">
                   Lorem ipsum dolor sit amet consectetur. Ac lacus dis facilisis
                   duis urna. Fermentum lectus leo facilisis nisl. Arcu sem
                   tempor enim orci urna imperdiet.
@@ -92,9 +118,11 @@
             </li>
             <li>
               <article>
-                <p>top category</p>
-                <h3>Lorem ipsum dolor sit amet consectetur</h3>
-                <p>
+                <p class="blog-post-sub-title">top category</p>
+                <h3 class="blog-post-title">
+                  Lorem ipsum dolor sit amet consectetur
+                </h3>
+                <p class="blog-post-text">
                   Lorem ipsum dolor sit amet consectetur. Ac lacus dis facilisis
                   duis urna. Fermentum lectus leo facilisis nisl. Arcu sem
                   tempor enim orci urna imperdiet.
@@ -107,11 +135,11 @@
       <section class="section" id="about-section">
         <div class="container">
           <h2 class="about-title">about me</h2>
-          <p class="about-text">
+          <p class="about-text-bold">
             Lorem ipsum dolor sit amet consectetur. Integer cras justo nisl
             faucibus lorem ultricies id
           </p>
-          <p>
+          <p class="about-text-regular">
             Lorem ipsum dolor sit amet consectetur. Id viverra felis et nibh
             consequat. At nisi vel dolor vitae morbi. Ipsum morbi volutpat
             ultrices odio fermentum sed nec nulla fermentum. Viverra leo
@@ -151,7 +179,7 @@
                 <a href="#"><!--tg icon--></a>
               </li>
             </ul>
-            <button type="button">send</button>
+            <button class="button" type="button">send</button>
           </address>
         </div>
       </section>
@@ -161,7 +189,7 @@
         <a href="#">
           <img src="./images/logo.svg" alt="logo" />
         </a>
-        <p>
+        <p class="footer-copyright">
           &copy; 2024 I made this site as a portfolio and resume to showcase my
           work
         </p>

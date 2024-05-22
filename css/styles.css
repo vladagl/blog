@@ -1,6 +1,7 @@
 :root {
   --color-primary-dark: black;
   --color-primary-light: white;
+  --color-test: #d9d9d9;
 }
 
 /* base */
@@ -28,6 +29,10 @@ ul {
   list-style-type: none;
 }
 
+address {
+  font-style: normal;
+}
+
 .section {
   padding: 60px 0;
 }
@@ -44,18 +49,31 @@ ul {
 }
 
 .hero-title {
-  color: var(--color-primary-light);
+  color: var(--color-test);
   margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .hero-text {
-  color: var(--color-primary-light);
+  color: var(--color-test);
   margin-bottom: 40px;
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+
+.and {
+  text-transform: none;
 }
 
 /* link */
 .link {
   color: var(--color-primary-dark);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .link:hover {
@@ -65,15 +83,27 @@ ul {
 /* titles */
 .section-title {
   color: var(--color-primary-dark);
+  font-family: "Lora", serif;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .section-sub-title {
   color: var(--color-primary-dark);
   margin-bottom: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.about-title {
-  color: #f9f9f9;
+/* buttons */
+.button {
+  color: var(--color-primary-dark);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 /* trips section */
@@ -83,10 +113,19 @@ ul {
 
 .trips-title {
   margin-bottom: 56px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 .trips-text {
   margin-bottom: 120px;
+  font-family: "Hind Murai", sans-serif;
+  font-weight: 300;
+}
+
+.trips-more {
+  text-decoration: underline;
+  text-align: center;
 }
 
 /* blog section */
@@ -98,12 +137,49 @@ ul {
   margin-bottom: 96px;
 }
 
+.blog-post-sub-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.blog-post-title {
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+
+.blog-post-text {
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+
 /* about section */
-.about-text {
+.about-title {
+  color: #f9f9f9;
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+
+.about-text-bold {
   margin-bottom: 56px;
+  font-family: "Motserrat", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.about-text-regular {
+  font-family: "Hind Murai", serif;
+  font-weight: 400;
 }
 
 /* contacts section */
 .contacts-title {
   margin-bottom: 96px;
+}
+
+/* footer */
+.footer-copyright {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-align: center;
 }
