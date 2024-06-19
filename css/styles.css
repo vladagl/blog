@@ -248,7 +248,12 @@ address {
 }
 
 /* footer */
+footer {
+  background-color: #f9f9f9;
+}
+
 .footer-copyright {
+  margin: auto 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   text-align: center;
