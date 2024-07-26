@@ -121,6 +121,28 @@ address {
 }
 
 /*HEADER*/
+.full-width-border {
+  position: relative;
+}
+
+.full-width-border::before,
+.full-width-border::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: var(--color-primary-dark);
+}
+
+.full-width-border::before {
+  top: 0;
+}
+
+.full-width-border::after {
+  bottom: 0;
+}
+
 .header-container {
   display: flex;
   align-items: center;
