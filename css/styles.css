@@ -49,7 +49,7 @@ address {
   padding-left: 0;
   padding-top: 300px;
   padding-bottom: 72px;
-  background-image: url(../images/Rectangle\ 15.jpg);
+  background-image: url(../images/hero-image.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -185,6 +185,23 @@ address {
 .trips-more {
   text-decoration: underline;
   text-align: center;
+}
+
+.trips-image {
+  width: 350px;
+}
+
+.trips-cards {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.trips-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* blog section */
