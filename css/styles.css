@@ -182,6 +182,15 @@ address {
   text-align: center;
 }
 
+.trips-list {
+  margin: 0 0 72px 0;
+}
+
+.trips-more-container {
+  display: flex;
+  justify-content: center;
+}
+
 .trips-more {
   text-decoration: underline;
   text-align: center;
@@ -297,7 +306,16 @@ address {
 
 /* footer */
 footer {
-  color: var(--color-secondary-light);
+  height: 160px;
+  background-color: var(--color-secondary-light);
+}
+
+.footer-container {
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
 
 .footer-copyright {
