@@ -88,6 +88,7 @@ address {
   font-weight: 500;
   text-decoration: none;
   text-transform: uppercase;
+  transition: color 0.3s;
 }
 
 .link:hover {
@@ -120,6 +121,8 @@ address {
   text-transform: uppercase;
   width: 160px;
   height: 36px;
+  background-color: white;
+  border: 1px solid black;
 }
 
 .button:hover {
@@ -204,6 +207,11 @@ address {
 
 .trips-image-link {
   position: relative;
+  transition: transform 0.3s;
+}
+
+.trips-image-link:hover {
+  transform: scale(1.05);
 }
 
 .button.trips {
@@ -314,12 +322,21 @@ address {
 }
 
 /* contacts section */
+
 .contacts-title {
   margin-bottom: 96px;
 }
 
-.adress-social:hover {
-  fill: var(--color-secondary-light);
+.form-label {
+  display: block;
+}
+
+.textarea {
+  resize: none;
+}
+
+.form-input {
+  padding: 16px 42px;
 }
 
 /* footer */

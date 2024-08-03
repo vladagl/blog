@@ -229,66 +229,109 @@
         <div class="container">
           <p class="section-sub-title">get in touch</p>
           <h2 class="contats-title section-title">contacts</h2>
-          <address>
-            <ul>
-              <a class="adress-contacts" href="#"
-                ><svg width="28" height="28">
-                  <use href="./images/icons.svg#icon-envelop"></use>
-                </svg>
-              </a>
-              <li>
-                <a class="link" href="mailto:vsh_o@ukr.net">vsh_o@ukr.net</a>
-              </li>
-              <a class="adress-contacts" href="#"
-                ><svg width="28" height="28">
-                  <use href="./images/icons.svg#icon-phone"></use>
-                </svg>
-              </a>
-              <li>
-                <a class="link" href="tel:+380964073686">+38(096)407-36-86</a>
-              </li>
-              <a class="adress-contacts" href="#"
-                ><svg width="28" height="28">
-                  <use href="./images/icons.svg#icon-location"></use>
-                </svg>
-              </a>
-              <li>
-                <a
-                  class="link"
-                  href="https://maps.app.goo.gl/YnwkWVai92TNfzb78"
-                  target="_blank"
-                >
-                  Irpin, Ukraine
-                </a>
-              </li>
-              <li>
-                <a
-                  class="adress-social"
-                  href="https://www.instagram.com/vladaaa_gl/"
-                  ><svg width="30" height="30">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a
-                  class="adress-social"
-                  href="https://www.facebook.com/vladaaaaaa/"
-                  ><svg width="30" height="30">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a class="adress-social" href="https://t.me/vladaaa_gl">
-                  <svg width="30" height="30">
-                    <use href="./images/icons.svg#icon-telegram"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-            <button class="button" type="button">send</button>
-          </address>
+          <div class="adress-container">
+            <address>
+              <div class="adress-column-first">
+                <ul>
+                  <a class="adress-contacts" href="#"
+                    ><svg width="28" height="28">
+                      <use href="./images/icons.svg#icon-envelop"></use>
+                    </svg>
+                  </a>
+                  <li>
+                    <a class="link" href="mailto:vsh_o@ukr.net"
+                      >vsh_o@ukr.net</a
+                    >
+                  </li>
+                  <a class="adress-contacts" href="#"
+                    ><svg width="28" height="28">
+                      <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>
+                  </a>
+                  <li>
+                    <a class="link" href="tel:+380964073686"
+                      >+38(096)407-36-86</a
+                    >
+                  </li>
+                  <a class="adress-contacts" href="#"
+                    ><svg width="28" height="28">
+                      <use href="./images/icons.svg#icon-location"></use>
+                    </svg>
+                  </a>
+                  <li>
+                    <a
+                      class="link"
+                      href="https://maps.app.goo.gl/YnwkWVai92TNfzb78"
+                      target="_blank"
+                    >
+                      Irpin, Ukraine
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="adress-social"
+                      href="https://www.instagram.com/vladaaa_gl/"
+                      ><svg width="30" height="30">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="adress-social"
+                      href="https://www.facebook.com/vladaaaaaa/"
+                      ><svg width="30" height="30">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="adress-social" href="https://t.me/vladaaa_gl">
+                      <svg width="30" height="30">
+                        <use href="./images/icons.svg#icon-telegram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="adress-column-second">
+                <form name="contact-form" autocomplete="off" novalidate>
+                  <label class="form-label" for="user-name">Name</label>
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="user-name"
+                    id="user-name"
+                  />
+
+                  <label class="form-label" for="user-tel">Telephone</label>
+                  <input
+                    class="form-input"
+                    type="tel"
+                    name="user-tel"
+                    id="user-tel"
+                  />
+
+                  <label class="form-label" for="user-email">Email</label>
+                  <input
+                    class="form-input"
+                    type="email"
+                    name="user-email"
+                    id="user-email"
+                  />
+
+                  <label class="form-label" for="user-text">Your comment</label>
+                  <textarea
+                    class="textarea form-input"
+                    name="user-text"
+                    id="user-text"
+                  ></textarea>
+
+                  <button class="button" type="submit">send</button>
+                </form>
+              </div>
+            </address>
+          </div>
         </div>
       </section>
     </main>
