@@ -228,70 +228,79 @@
       <section class="section" id="contacts-section">
         <div class="container">
           <p class="section-sub-title">get in touch</p>
-          <h2 class="contats-title section-title">contacts</h2>
-          <div class="adress-container">
-            <address>
+          <h2 class="contacts-title section-title">contacts</h2>
+
+          <address>
+            <div class="adress-container">
               <div class="adress-column-first">
                 <ul>
-                  <a class="adress-contacts" href="#"
-                    ><svg width="28" height="28">
-                      <use href="./images/icons.svg#icon-envelop"></use>
-                    </svg>
-                  </a>
-                  <li>
-                    <a class="link" href="mailto:vsh_o@ukr.net"
-                      >vsh_o@ukr.net</a
-                    >
-                  </li>
-                  <a class="adress-contacts" href="#"
-                    ><svg width="28" height="28">
-                      <use href="./images/icons.svg#icon-phone"></use>
-                    </svg>
-                  </a>
-                  <li>
-                    <a class="link" href="tel:+380964073686"
-                      >+38(096)407-36-86</a
-                    >
-                  </li>
-                  <a class="adress-contacts" href="#"
-                    ><svg width="28" height="28">
-                      <use href="./images/icons.svg#icon-location"></use>
-                    </svg>
-                  </a>
-                  <li>
-                    <a
-                      class="link"
-                      href="https://maps.app.goo.gl/YnwkWVai92TNfzb78"
-                      target="_blank"
-                    >
-                      Irpin, Ukraine
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="adress-social"
-                      href="https://www.instagram.com/vladaaa_gl/"
-                      ><svg width="30" height="30">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="adress-social"
-                      href="https://www.facebook.com/vladaaaaaa/"
-                      ><svg width="30" height="30">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="adress-social" href="https://t.me/vladaaa_gl">
-                      <svg width="30" height="30">
-                        <use href="./images/icons.svg#icon-telegram"></use>
-                      </svg>
-                    </a>
-                  </li>
+                  <div class="address-icons-text">
+                    <div class="adress-contacts-icons">
+                      <a class="adress-contacts" href="#"
+                        ><svg width="23" height="23">
+                          <use href="./images/icons.svg#icon-envelop"></use>
+                        </svg>
+                      </a>
+                      <a class="adress-contacts" href="#"
+                        ><svg width="23" height="23">
+                          <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                      </a>
+                      <a class="adress-contacts" href="#"
+                        ><svg width="23" height="23">
+                          <use href="./images/icons.svg#icon-location"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="adress-contacts-text">
+                      <li class="address-text">
+                        <a class="link" href="mailto:vsh_o@ukr.net"
+                          >vsh_o@ukr.net</a
+                        >
+                      </li>
+                      <li class="address-text">
+                        <a class="link" href="tel:+380964073686"
+                          >+38(096)407-36-86</a
+                        >
+                      </li>
+                      <li class="address-text">
+                        <a
+                          class="link"
+                          href="https://maps.app.goo.gl/YnwkWVai92TNfzb78"
+                          target="_blank"
+                        >
+                          Irpin, Ukraine
+                        </a>
+                      </li>
+                    </div>
+                  </div>
+                  <div class="address-social-icons">
+                    <li>
+                      <a
+                        class="adress-social"
+                        href="https://www.instagram.com/vladaaa_gl/"
+                        ><svg width="30" height="30">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="adress-social"
+                        href="https://www.facebook.com/vladaaaaaa/"
+                        ><svg width="30" height="30">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="adress-social" href="https://t.me/vladaaa_gl">
+                        <svg width="30" height="30">
+                          <use href="./images/icons.svg#icon-telegram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </div>
                 </ul>
               </div>
               <div class="adress-column-second">
@@ -311,32 +320,33 @@
                     />
                   </div>
 
-                  <div class="form-field">
-                    <label class="form-label visually-hidden" for="user-tel"
-                      >Telephone</label
-                    >
-                    <input
-                      class="form-input"
-                      type="tel"
-                      name="user-tel"
-                      id="user-tel"
-                      placeholder="Telephone"
-                      required
-                    />
-                  </div>
-
-                  <div class="form-field">
-                    <label class="form-label visually-hidden" for="user-email"
-                      >Email</label
-                    >
-                    <input
-                      class="form-input"
-                      type="email"
-                      name="user-email"
-                      id="user-email"
-                      placeholder="Email"
-                      required
-                    />
+                  <div class="form-style">
+                    <div class="form-field form-style-item">
+                      <label class="form-label visually-hidden" for="user-tel"
+                        >Telephone</label
+                      >
+                      <input
+                        class="form-input"
+                        type="tel"
+                        name="user-tel"
+                        id="user-tel"
+                        placeholder="Telephone"
+                        required
+                      />
+                    </div>
+                    <div class="form-field form-style-item">
+                      <label class="form-label visually-hidden" for="user-email"
+                        >Email</label
+                      >
+                      <input
+                        class="form-input"
+                        type="email"
+                        name="user-email"
+                        id="user-email"
+                        placeholder="Email"
+                        required
+                      />
+                    </div>
                   </div>
 
                   <div class="form-field">
@@ -355,16 +365,13 @@
                   <button class="button" type="submit">send</button>
                 </form>
               </div>
-            </address>
-          </div>
+            </div>
+          </address>
         </div>
       </section>
     </main>
     <footer>
       <div class="footer-container container">
-        <a href="#">
-          <img src="./images/logo.svg" alt="logo" />
-        </a>
         <p class="footer-copyright">
           &copy; 2024 I made this site as a portfolio and resume to showcase my
           work
