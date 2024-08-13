@@ -295,7 +295,7 @@
                 </ul>
               </div>
               <div class="adress-column-second">
-                <form name="contact-form" autocomplete="off" novalidate>
+                <form name="contact-form" autocomplete="off">
                   <div class="form-field">
                     <label class="form-label visually-hidden" for="user-name"
                       >Name</label
@@ -306,6 +306,8 @@
                       name="user-name"
                       id="user-name"
                       placeholder="Name"
+                      minlength="2"
+                      required
                     />
                   </div>
 
@@ -319,6 +321,7 @@
                       name="user-tel"
                       id="user-tel"
                       placeholder="Telephone"
+                      required
                     />
                   </div>
 
@@ -332,6 +335,7 @@
                       name="user-email"
                       id="user-email"
                       placeholder="Email"
+                      required
                     />
                   </div>
 
@@ -344,6 +348,7 @@
                       name="user-text"
                       id="user-text"
                       placeholder="Your comment"
+                      required
                     ></textarea>
                   </div>
 
