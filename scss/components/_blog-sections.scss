@@ -1,0 +1,46 @@
+.blog-text {
+  margin-bottom: 24px;
+}
+
+.blog-title {
+  margin-bottom: 96px;
+}
+
+.blog-post-sub-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.blog-post-title {
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+
+.blog-post-text {
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+
+.blog-content-text {
+  text-align: center;
+}
+
+.blog-content-left {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.blog-content-right {
+  margin-top: 122px;
+  margin-bottom: 122px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  flex-direction: row-reverse;
+}
+
+.blog-arrow:hover {
+  fill: var(--color-secondary-light);
+}

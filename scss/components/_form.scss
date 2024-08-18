@@ -1,0 +1,40 @@
+.form-style {
+  display: flex;
+  gap: 32px;
+}
+
+.form-style-item {
+  flex: auto;
+}
+
+.form-field {
+  margin-bottom: 25px;
+}
+
+.form-label {
+  display: block;
+}
+
+.textarea {
+  resize: none;
+}
+
+.form-input {
+  padding: 16px 42px;
+  width: 100%;
+  border: 1px solid var(--color-primary-dark);
+  border-radius: 6px;
+  font-family: "Montserrat";
+  font-size: 18px;
+}
+
+.form-input:focus {
+  border-color: var(--color-primary-dark);
+  outline: none;
+}
+
+.form-input::placeholder {
+  color: var(--color-primary-dark);
+  font-family: "Montserrat";
+  font-size: 18px;
+}

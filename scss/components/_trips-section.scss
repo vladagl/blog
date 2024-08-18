@@ -1,0 +1,65 @@
+.trips-section {
+  padding-top: 120px;
+}
+
+.trips-title {
+  margin-bottom: 56px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.trips-text {
+  margin-bottom: 120px;
+  padding: 0 200px;
+  font-family: "Hind Murai", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.trips-list {
+  margin: 0 0 72px 0;
+}
+
+.trips-more-container {
+  display: flex;
+  justify-content: center;
+}
+
+.trips-more {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.trips-image-link {
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.trips-image-link:hover {
+  transform: scale(1.05);
+}
+
+.button.trips {
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.trips-image {
+  width: 350px;
+}
+
+.trips-cards {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.trips-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
