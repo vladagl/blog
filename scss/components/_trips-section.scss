@@ -1,42 +1,60 @@
 .trips-section {
   padding-top: 120px;
-}
 
-.trips-title {
-  margin-bottom: 56px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-}
+  &__title {
+    margin-bottom: 56px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+  }
 
-.trips-text {
-  margin-bottom: 120px;
-  padding: 0 200px;
-  font-family: "Hind Murai", sans-serif;
-  font-weight: 300;
-  text-align: center;
-}
+  &__text {
+    margin-bottom: 120px;
+    padding: 0 200px;
+    font-family: "Hind Murai", sans-serif;
+    font-weight: 300;
+    text-align: center;
+  }
 
-.trips-list {
-  margin: 0 0 72px 0;
-}
+  &__list {
+    margin: 0 0 72px 0;
+  }
 
-.trips-more-container {
-  display: flex;
-  justify-content: center;
-}
+  &__image {
+    width: 350px;
+  }
 
-.trips-more {
-  text-decoration: underline;
-  text-align: center;
-}
+  &__cards {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
 
-.trips-image-link {
-  position: relative;
-  transition: transform 0.3s;
-}
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
 
-.trips-image-link:hover {
-  transform: scale(1.05);
+  &__image-link {
+    position: relative;
+    transition: transform 0.3s;
+  }
+
+  &__image-link:hover {
+    transform: scale(1.05);
+  }
+
+  &__more-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__more {
+    text-decoration: underline;
+    text-align: center;
+  }
 }
 
 .button.trips {
@@ -44,22 +62,4 @@
   bottom: -18px;
   left: 50%;
   transform: translateX(-50%);
-}
-
-.trips-image {
-  width: 350px;
-}
-
-.trips-cards {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  justify-content: center;
-}
-
-.trips-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
 }

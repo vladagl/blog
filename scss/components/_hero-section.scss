@@ -6,30 +6,30 @@
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-}
 
-.hero-section-text {
-  margin: 0 auto;
-  width: 1240px;
-}
+  &__info {
+    margin: 0 auto;
+    width: 1240px;
+  }
 
-.hero-title {
-  color: var(--color-primary-light);
-  margin-bottom: 40px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  width: 500px;
-}
+  &__title {
+    color: var(--color-primary-light);
+    margin-bottom: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 500px;
+  }
 
-.hero-text {
-  color: var(--color-primary-light);
-  margin-bottom: 40px;
-  font-family: "Lora", serif;
-  font-weight: 400;
-  width: 500px;
-}
+  &__text {
+    color: var(--color-primary-light);
+    margin-bottom: 40px;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    width: 500px;
+  }
 
-.and {
-  text-transform: none;
+  &__and {
+    text-transform: none;
+  }
 }
