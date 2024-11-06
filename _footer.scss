@@ -1,0 +1,19 @@
+footer {
+  height: 80px;
+  background-color: var(--color-secondary-light);
+}
+
+.footer-container {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 15px;
+}
+
+.footer-copyright {
+  margin: auto 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
