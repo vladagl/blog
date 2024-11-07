@@ -1,51 +1,55 @@
-.adress-container {
-  display: flex;
-  gap: 100px;
-}
+.contacts-section {
+  &__title {
+    margin-bottom: 96px;
+  }
 
-.address-icons-text {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
+  &__adress-container {
+    display: flex;
+    gap: 100px;
+  }
 
-.adress-contacts-icons {
-  display: flex;
-  flex-direction: column;
-}
+  &__address-icons-text {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
 
-.adress-contacts-text {
-  display: flex;
-  flex-direction: column;
-}
+  &__adress-contacts {
+    margin-bottom: 24px;
+  }
 
-.adress-column-second {
-  flex: auto;
-}
+  &__adress-contacts:first-child {
+    margin-top: 10px;
+  }
 
-.address-social-icons {
-  display: flex;
-  gap: 16px;
-}
+  &__adress-contacts-icons {
+    display: flex;
+    flex-direction: column;
+  }
 
-.adress-contacts {
-  margin-bottom: 24px;
-}
+  &__adress-contacts-text {
+    display: flex;
+    flex-direction: column;
+  }
 
-.adress-contacts:first-child {
-  margin-top: 10px;
-}
+  &__address-text {
+    margin-bottom: 28px;
+    font-family: "Montserrat";
+    font-size: 18px;
+  }
 
-.address-text {
-  margin-bottom: 28px;
-  font-family: "Montserrat";
-  font-size: 18px;
-}
+  &__address-text:last-child {
+    margin-bottom: 14px;
+  }
 
-.address-text:last-child {
-  margin-bottom: 14px;
-}
+  &__address-social-icons {
+    display: flex;
+    gap: 16px;
+  }
 
-.contacts-title {
-  margin-bottom: 96px;
+  &__adress-column {
+    &--second {
+      flex: auto;
+    }
+  }
 }
